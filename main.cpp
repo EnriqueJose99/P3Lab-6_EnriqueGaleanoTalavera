@@ -6,6 +6,7 @@
 #include "escenario.h"
 #include "invisible.h"
 #include "tren.h"
+#include "v.h"
 
 
 int main(){
