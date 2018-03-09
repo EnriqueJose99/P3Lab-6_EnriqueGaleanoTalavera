@@ -4,6 +4,7 @@
 #include "jugador.h"
 #include "items.h"
 #include "escenario.h"
+#include "invisible.h"
 
 
 int main(){

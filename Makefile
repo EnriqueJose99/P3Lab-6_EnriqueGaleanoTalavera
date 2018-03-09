@@ -1,7 +1,7 @@
-output: main.o bombas.o escenario.o espina.o items.o jugador.o normal.o
-	g++ main.o bombas.o escenario.o espina.o items.o jugador.o normal.o -o output
+output: main.o bombas.o escenario.o invisible.o espina.o items.o jugador.o normal.o
+	g++ main.o bombas.o escenario.o espina.o items.o jugador.o normal.o invisible.o -o output
 
-main.o: main.cpp bombas.h escenario.h espina.h items.h jugador.h normal.h
+main.o: main.cpp bombas.h escenario.h espina.h items.h jugador.h normal.h invisible.h
 	g++ -c main.cpp
 
 bombas.o: bombas.cpp bombas.h items.h
@@ -9,6 +9,9 @@ bombas.o: bombas.cpp bombas.h items.h
 
 escenario.o: escenario.cpp escenario.h items.h bombas.h
 	g++ -c escenario.cpp
+
+invisible.o: invisible.cpp invisible.h escenario.h
+	g++ -c invisible.cpp
 
 espina.o: espina.cpp espina.h bombas.h
 	g++ -c espina.cpp

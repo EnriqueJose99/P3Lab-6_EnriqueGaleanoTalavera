@@ -9,13 +9,18 @@ using namespace std;
 
 class Escenario{
 private:
+
+public:
+  vector<Bombas*> bombas;
+  Items*** crearTablero();
+  string nombreEs;
+  Escenario();
+  Escenario(string);
+  void setNombreEs(string);
+  string getNombreEs();
+  vector<Bombas*> getBombas();
   //int size = 11;
   //int size1 = 13;
-  string nombre;
   //Items*** matrix = new Items [11][13];
-  vector<Bombas*> bombas;
-
-
-
 };
 #endif
