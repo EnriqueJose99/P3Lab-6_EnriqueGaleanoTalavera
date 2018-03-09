@@ -1,16 +1,19 @@
 #include <iostream>
 #include <string>
+#include "items.h"
 
 #ifndef JUGADOR_H
 #define JUGADOR_H
 using namespace std;
-class Jugador{
+class Jugador:public Items{
 private:
+
+
+public:
   string nombre;
   bool estadoVM;
   int tipoDeControlador;
 
-public:
   Jugador();
   Jugador(string, bool, int);
 

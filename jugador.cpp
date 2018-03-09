@@ -8,7 +8,7 @@ Jugador::Jugador(){
 
 }
 
-Jugador::Jugador(string pNombre, bool pEstadoVM, int pTipoDeControlador){
+Jugador::Jugador(string pNombre, bool pEstadoVM, int pTipoDeControlador):Items(x, y){
   nombre = pNombre;
   estadoVM = pEstadoVM;
   tipoDeControlador = pTipoDeControlador;
