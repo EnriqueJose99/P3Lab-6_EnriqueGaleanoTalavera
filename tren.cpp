@@ -1,5 +1,5 @@
 #include "tren.h"
-#include <iostrem>
+#include <iostream>
 #include <vector>
 using namespace std;
 

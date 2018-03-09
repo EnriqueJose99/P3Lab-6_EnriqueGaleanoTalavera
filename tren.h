@@ -12,11 +12,11 @@ private:
 public:
   int vagonX;
   int vagonY;
-  vector<int* Posiciones> posiciones;
+  vector<int*> posiciones;
 
   int getVagonX();
   int getVagonY();
-  vector<int* Posiciones> getPosiciones();
+  //vector<int* Posiciones> getPosiciones();
   Tren();
   Tren(int, int);
 

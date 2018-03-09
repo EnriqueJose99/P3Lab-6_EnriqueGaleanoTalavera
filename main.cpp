@@ -5,6 +5,7 @@
 #include "items.h"
 #include "escenario.h"
 #include "invisible.h"
+#include "tren.h"
 
 
 int main(){
