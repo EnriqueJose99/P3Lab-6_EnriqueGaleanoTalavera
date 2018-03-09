@@ -3,8 +3,8 @@
 
 #ifndef JUGADOR_H
 #define JUGADOR_H
-
-class jugador{
+using namespace std;
+class Jugador{
 private:
   string nombre;
   bool estadoVM;
