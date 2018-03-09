@@ -7,7 +7,7 @@ Espina::Espina(){
 
 }
 
-Espina::Espina(int pCantidad){
+Espina::Espina(int pCantidad):Bombas(contador){
   cantidad = pCantidad;
 }
 

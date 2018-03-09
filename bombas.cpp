@@ -5,7 +5,7 @@ Bombas::Bombas(){
 
 }
 
-Bombas::Bombas(int pContador){
+Bombas::Bombas(int pContador): Items(x, y){
   contador = pContador;
 }
 

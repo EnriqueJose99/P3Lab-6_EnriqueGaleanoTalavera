@@ -7,7 +7,7 @@ Normal::Normal(){
 
 }
 
-Normal::Normal(int alcanze){
+Normal::Normal(int alcanze):Bombas(contador){
   alcanze =  rand()% 4+1;
 }
 

@@ -7,9 +7,10 @@ using namespace std;
 
 class Bombas:public Items{
 private:
-  int contador;
+
 
 public:
+  int contador;
   Bombas();
   Bombas(int);
 
@@ -19,6 +20,3 @@ public:
 
 };
 #endif
-
-
-int contador;
