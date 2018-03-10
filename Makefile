@@ -1,7 +1,7 @@
 output: main.o items.o jugador.o bombas.o espina.o normal.o v.o escenario.o invisible.o tren.o
-	g++ main.o items.o jugador.o bombas.o espina.o normal.o v.o escenario.o invisible.o tren.o -o output
+	g++ main.o items.o jugador.o bombas.o espina.o normal.o v.o escenario.o invisible.o tren.o -o output -lncurses
 
-main.o: main.cpp items.h jugador.h bombas.o espina.o normal.o v.o escenario.o invisible.o tren.o
+main.o: main.cpp items.h jugador.h bombas.h espina.h normal.h v.h escenario.h invisible.h tren.h 
 	g++ -c main.cpp
 
 items.o: items.cpp items.h
